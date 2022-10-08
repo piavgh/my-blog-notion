@@ -56,32 +56,11 @@ export const Text = ({ text }) => {
 
 function renderContent(block, index) {
   if (index === 7) {
-    return (
-      <div>
-        {renderBlocks(block)}
-        {/* <!-- Ezoic - incontent_2 - mid_content --> */}
-        <div id="ezoic-pub-ad-placeholder-103"> </div>
-        {/* <!-- End Ezoic - incontent_2 - mid_content --> */}
-      </div>
-    );
+    return <div>{renderBlocks(block)}</div>;
   } else if (index === 14) {
-    return (
-      <div>
-        {renderBlocks(block)}
-        {/* <!-- Ezoic - incontent_3 - longer_content --> */}
-        <div id="ezoic-pub-ad-placeholder-105"> </div>
-        {/* <!-- End Ezoic - incontent_3 - longer_content --> */}
-      </div>
-    );
+    return <div>{renderBlocks(block)}</div>;
   } else if (index === 22) {
-    return (
-      <div>
-        {renderBlocks(block)}
-        {/* <!-- Ezoic - incontent_6 - incontent_6 --> */}
-        <div id="ezoic-pub-ad-placeholder-109"> </div>
-        {/* <!-- End Ezoic - incontent_6 - incontent_6 --> */}
-      </div>
-    );
+    return <div>{renderBlocks(block)}</div>;
   } else if (index === 32) {
     return <div>{renderBlocks(block)}</div>;
   } else {
@@ -171,7 +150,7 @@ export function renderBlocks(block) {
         <figure className="mt-0">
           <Image
             className="rounded-xl"
-            objectFit="fill"
+            objectFit="contain"
             width={1200}
             height={684}
             alt={
@@ -254,6 +233,7 @@ const ArticlePage = ({
   summary,
   moreArticles
 }) => {
+  console.log('coverImage', coverImage);
   const { push } = useRouter();
   const publishedOn = new Date(publishedDate).toLocaleDateString(
     siteMetadata.locale,
@@ -316,17 +296,19 @@ const ArticlePage = ({
                 )}
               </div>
             </div>
-            <div className="my-12">
-              <Image
-                className="rounded-xl"
-                objectFit="fill"
-                src={coverImage}
-                width={1200}
-                height={684}
-                alt={'article cover'}
-                priority
-              />
-            </div>
+            {coverImage != '' && (
+              <div className="my-12">
+                <Image
+                  className="rounded-xl"
+                  objectFit="contain"
+                  src={coverImage}
+                  width={1200}
+                  height={684}
+                  alt={'article cover'}
+                  priority
+                />
+              </div>
+            )}
             {/* <!-- Ezoic - under_page_title - under_page_title --> */}
             <div id="ezoic-pub-ad-placeholder-122"> </div>
             {/* <!-- End Ezoic - under_page_title - under_page_title --> */}
@@ -447,7 +429,7 @@ export const getStaticProps: GetStaticProps = async ({ params: { slug } }) => {
   coverImage =
     page.properties?.coverImage?.files[0]?.file?.url ||
     page.properties.coverImage?.files[0]?.external?.url ||
-    'https://via.placeholder.com/600x400.png';
+    '';
 
   const moreArticles: any = await getMoreArticlesToSuggest(
     process.env.BLOG_DATABASE_ID,
