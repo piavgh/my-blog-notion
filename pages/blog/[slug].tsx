@@ -372,10 +372,6 @@ const ArticlePage = ({
             Share Article
           </h3>
           <ShareArticle title={title} slug={slug} />
-          {/* <Ad /> */}
-          {/* <!-- Ezoic - sidebar - sidebar --> */}
-          <div id="ezoic-pub-ad-placeholder-112"> </div>
-          {/* <!-- End Ezoic - sidebar - sidebar --> */}
         </aside>
       </div>
     </Container>
