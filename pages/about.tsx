@@ -130,8 +130,10 @@ export default function About({ recentArticles }) {
               <span className="flex-none text-gray-900 gover-hover:underline dark:text-white">
                 {workItem.company}
               </span>
-              <span className="w-full border-t border-gray-300 border-dashed shrink dark:border-gray-700"></span>
-              <span className="flex-none">{workItem.title}</span>
+              <span className="w-full md:border-t md:border-gray-300 md:border-dashed shrink dark:border-gray-700"></span>
+              <span className="flex-none hidden sm:block">
+                {workItem.title}
+              </span>
               <span className="flex-none">{workItem.duration}</span>
             </div>
           ))}

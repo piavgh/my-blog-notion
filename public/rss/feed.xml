@@ -4,7 +4,7 @@
         <description><![CDATA[Hoang Trinh]]></description>
         <link>https://hoangtrinhj.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 08 Oct 2022 10:44:03 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 08 Oct 2022 11:20:58 GMT</lastBuildDate>
         <atom:link href="https://hoangtrinhj.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Remove Redis keys by pattern]]></title>
@@ -85,7 +85,7 @@
         </item>
         <item>
             <title><![CDATA[What is the OAuth 2.0 Authorization Code Grant Type?]]></title>
-            <description><![CDATA[Placeholder summary]]></description>
+            <description><![CDATA[What is the OAuth 2.0 Authorization Code Grant Type?]]></description>
             <link>https://hoangtrinhj.com/blog/what-is-the-oauth-2.0-authorization-code-grant-type</link>
             <guid isPermaLink="true">https://hoangtrinhj.com/blog/what-is-the-oauth-2.0-authorization-code-grant-type</guid>
             <pubDate>Sat, 10 Oct 2020 00:00:00 GMT</pubDate>
