@@ -235,17 +235,23 @@ export const getStaticProps: GetStaticProps = async ({ preview = false }) => {
   const { articles, tags } = convertToArticleList(data);
 
   let blogArticles = articles;
+  let featuredArticles = articles;
 
   if (!preview || preview === undefined) {
-    blogArticles = blogArticles.filter((article) => article.isPublic === true);
+    blogArticles = blogArticles.filter(
+      (article) => article.isPublic === true && article.isFeatured === false
+    );
+    featuredArticles = featuredArticles.filter(
+      (article) => article.isFeatured === true
+    );
   }
 
-  const featuredArticle = blogArticles[0];
+  const featuredArticle = featuredArticles[0];
 
   return {
     props: {
       featuredArticle,
-      articles: blogArticles.slice(1),
+      articles: blogArticles,
       tags
     },
     revalidate: 30

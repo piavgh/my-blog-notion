@@ -54,7 +54,7 @@ export default function Home({ recentArticles }) {
         <hr className="hr"></hr>
         <div>
           <h2>I love to share my knowledge through writing.</h2>
-          <p>Check out a few of my most recent publishings.</p>
+          <p>Check out a few of my most recent articles.</p>
           <ArticleList articles={recentArticles} />
           <div className="my-16">
             <Button

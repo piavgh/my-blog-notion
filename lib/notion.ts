@@ -136,7 +136,8 @@ export const convertToArticleList = (tableData: any) => {
       summary:
         article.properties?.Summary.rich_text[0]?.plain_text ??
         'Placeholder summary',
-      isPublic: article.properties?.Public.checkbox
+      isPublic: article.properties?.Public.checkbox,
+      isFeatured: article.properties?.Featured.checkbox
     };
   });
 

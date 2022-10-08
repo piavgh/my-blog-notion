@@ -4,14 +4,28 @@
         <description><![CDATA[Hoang Trinh]]></description>
         <link>https://hoangtrinhj.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 08 Oct 2022 08:51:31 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 08 Oct 2022 10:44:03 GMT</lastBuildDate>
         <atom:link href="https://hoangtrinhj.com/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Remove Redis keys by pattern]]></title>
+            <description><![CDATA[Remove Redis keys by pattern]]></description>
+            <link>https://hoangtrinhj.com/blog/remove-redis-keys-by-pattern</link>
+            <guid isPermaLink="true">https://hoangtrinhj.com/blog/remove-redis-keys-by-pattern</guid>
+            <pubDate>Thu, 28 Jul 2022 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Create Go bindings for Solidity smart contracts]]></title>
             <description><![CDATA[Create Go bindings for Solidity smart contracts]]></description>
             <link>https://hoangtrinhj.com/blog/create-go-bindings-for-solidity-smart-contracts</link>
             <guid isPermaLink="true">https://hoangtrinhj.com/blog/create-go-bindings-for-solidity-smart-contracts</guid>
             <pubDate>Sat, 12 Mar 2022 14:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The Architecture of a Web 3.0 application]]></title>
+            <description><![CDATA[The Architecture of a Web 3.0 application]]></description>
+            <link>https://hoangtrinhj.com/blog/the-architecture-of-a-web-3.0-application</link>
+            <guid isPermaLink="true">https://hoangtrinhj.com/blog/the-architecture-of-a-web-3.0-application</guid>
+            <pubDate>Sat, 02 Oct 2021 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Error R10 (Boot timeout) when deploying Rust Rocket project on Heroku]]></title>
@@ -26,6 +40,83 @@
             <link>https://hoangtrinhj.com/blog/how-to-solve-cors-issues</link>
             <guid isPermaLink="true">https://hoangtrinhj.com/blog/how-to-solve-cors-issues</guid>
             <pubDate>Sun, 31 Jan 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Design Patterns for Microservices]]></title>
+            <description><![CDATA[Design Patterns for Microservices]]></description>
+            <link>https://hoangtrinhj.com/blog/design-patterns-for-microservices</link>
+            <guid isPermaLink="true">https://hoangtrinhj.com/blog/design-patterns-for-microservices</guid>
+            <pubDate>Sat, 23 Jan 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How React.js Virtual DOM works?]]></title>
+            <description><![CDATA[How React.js Virtual DOM works?]]></description>
+            <link>https://hoangtrinhj.com/blog/how-react.js-virtual-dom-works</link>
+            <guid isPermaLink="true">https://hoangtrinhj.com/blog/how-react.js-virtual-dom-works</guid>
+            <pubDate>Sun, 20 Dec 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Better Git with fixup and autosquash]]></title>
+            <description><![CDATA[Better Git with fixup and autosquash]]></description>
+            <link>https://hoangtrinhj.com/blog/better-git-with-fixup-and-autosquash</link>
+            <guid isPermaLink="true">https://hoangtrinhj.com/blog/better-git-with-fixup-and-autosquash</guid>
+            <pubDate>Wed, 02 Dec 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Promises, async/await in Go with Channels]]></title>
+            <description><![CDATA[Promises, async/await in Go with Channels]]></description>
+            <link>https://hoangtrinhj.com/blog/promises-asyncawait-in-go-with-channels</link>
+            <guid isPermaLink="true">https://hoangtrinhj.com/blog/promises-asyncawait-in-go-with-channels</guid>
+            <pubDate>Sat, 28 Nov 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Why do we need functional programming?]]></title>
+            <description><![CDATA[Why do we need functional programming?]]></description>
+            <link>https://hoangtrinhj.com/blog/why-do-we-need-functional-programming</link>
+            <guid isPermaLink="true">https://hoangtrinhj.com/blog/why-do-we-need-functional-programming</guid>
+            <pubDate>Sun, 25 Oct 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[What is the OAuth 2.0 Implicit Grant Type?]]></title>
+            <description><![CDATA[What is the OAuth 2.0 Implicit Grant Type?]]></description>
+            <link>https://hoangtrinhj.com/blog/what-is-the-oauth-2.0-implicit-grant-type</link>
+            <guid isPermaLink="true">https://hoangtrinhj.com/blog/what-is-the-oauth-2.0-implicit-grant-type</guid>
+            <pubDate>Sun, 11 Oct 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[What is the OAuth 2.0 Authorization Code Grant Type?]]></title>
+            <description><![CDATA[Placeholder summary]]></description>
+            <link>https://hoangtrinhj.com/blog/what-is-the-oauth-2.0-authorization-code-grant-type</link>
+            <guid isPermaLink="true">https://hoangtrinhj.com/blog/what-is-the-oauth-2.0-authorization-code-grant-type</guid>
+            <pubDate>Sat, 10 Oct 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Nest.js Caching With Redis]]></title>
+            <description><![CDATA[Nest.js Caching With Redis]]></description>
+            <link>https://hoangtrinhj.com/blog/nest.js-caching-with-redis</link>
+            <guid isPermaLink="true">https://hoangtrinhj.com/blog/nest.js-caching-with-redis</guid>
+            <pubDate>Mon, 05 Oct 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dockerfile Best Practices]]></title>
+            <description><![CDATA[Dockerfile Best Practices]]></description>
+            <link>https://hoangtrinhj.com/blog/dockerfile-best-practices</link>
+            <guid isPermaLink="true">https://hoangtrinhj.com/blog/dockerfile-best-practices</guid>
+            <pubDate>Sun, 13 Sep 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Differences between WebSocket and Socket.IO]]></title>
+            <description><![CDATA[Differences between WebSocket and Socket.IO]]></description>
+            <link>https://hoangtrinhj.com/blog/differences-between-websocket-and-socket.io</link>
+            <guid isPermaLink="true">https://hoangtrinhj.com/blog/differences-between-websocket-and-socket.io</guid>
+            <pubDate>Sun, 02 Aug 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Websocket Horizontal Scaling The Right Way]]></title>
+            <description><![CDATA[Websocket Horizontal Scaling The Right Way]]></description>
+            <link>https://hoangtrinhj.com/blog/websocket-horizontal-scaling-the-right-way</link>
+            <guid isPermaLink="true">https://hoangtrinhj.com/blog/websocket-horizontal-scaling-the-right-way</guid>
+            <pubDate>Wed, 01 Jan 2020 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
