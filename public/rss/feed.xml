@@ -4,21 +4,28 @@
         <description><![CDATA[Hoang Trinh]]></description>
         <link>https://hoangtrinhj.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 08 Oct 2022 08:15:17 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 08 Oct 2022 08:51:31 GMT</lastBuildDate>
         <atom:link href="https://hoangtrinhj.com/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[Here’s an idea…]]></title>
-            <description><![CDATA[Perhaps write about something…?]]></description>
-            <link>https://hoangtrinhj.com/blog/here&apos;s-an-idea...</link>
-            <guid isPermaLink="true">https://hoangtrinhj.com/blog/here&apos;s-an-idea...</guid>
-            <pubDate>Sat, 08 Oct 2022 00:00:00 GMT</pubDate>
+            <title><![CDATA[Create Go bindings for Solidity smart contracts]]></title>
+            <description><![CDATA[Create Go bindings for Solidity smart contracts]]></description>
+            <link>https://hoangtrinhj.com/blog/create-go-bindings-for-solidity-smart-contracts</link>
+            <guid isPermaLink="true">https://hoangtrinhj.com/blog/create-go-bindings-for-solidity-smart-contracts</guid>
+            <pubDate>Sat, 12 Mar 2022 14:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Hello, World!]]></title>
-            <description><![CDATA[The combination of Next.js and the Notion API provide a powerful solution to blogging!]]></description>
-            <link>https://hoangtrinhj.com/blog/hello-world!</link>
-            <guid isPermaLink="true">https://hoangtrinhj.com/blog/hello-world!</guid>
-            <pubDate>Sat, 25 Jun 2022 13:00:00 GMT</pubDate>
+            <title><![CDATA[Error R10 (Boot timeout) when deploying Rust Rocket project on Heroku]]></title>
+            <description><![CDATA[Error R10 (Boot timeout) when deploying Rust Rocket project on Heroku]]></description>
+            <link>https://hoangtrinhj.com/blog/error-r10-(boot-timeout)-when-deploying-rust-rocket-project-on-heroku</link>
+            <guid isPermaLink="true">https://hoangtrinhj.com/blog/error-r10-(boot-timeout)-when-deploying-rust-rocket-project-on-heroku</guid>
+            <pubDate>Wed, 07 Jul 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How to solve CORS issues?]]></title>
+            <description><![CDATA[How to solve CORS issues?]]></description>
+            <link>https://hoangtrinhj.com/blog/how-to-solve-cors-issues</link>
+            <guid isPermaLink="true">https://hoangtrinhj.com/blog/how-to-solve-cors-issues</guid>
+            <pubDate>Sun, 31 Jan 2021 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

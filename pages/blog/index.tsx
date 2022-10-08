@@ -36,7 +36,7 @@ export default function Blog({ featuredArticle, articles, tags }) {
   return (
     <Container title="Blog - Hoang Trinh">
       <h1>
-        <span className="block text-base font-semibold tracking-wide text-center text-teal-500 uppercase dark:text-teal-400">
+        <span className="block text-base font-semibold tracking-wide text-center text-teal-500 uppercase dark:text-teal-400 mb-8">
           My Blog
         </span>
         <span className="block max-w-2xl mx-auto mt-2 text-4xl font-bold leading-10 text-center sm:text-5xl">
@@ -53,7 +53,7 @@ export default function Blog({ featuredArticle, articles, tags }) {
           <div>
             <Image
               className="rounded-xl group-hover:opacity-75"
-              objectFit="fill"
+              objectFit="contain"
               src={featuredArticle.coverImage}
               placeholder="blur"
               blurDataURL={featuredArticle.coverImage}
