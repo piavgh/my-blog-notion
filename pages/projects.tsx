@@ -33,15 +33,15 @@ export default function Projects() {
           <div className="grid grid-cols-1 gap-4 md:grid-cols-5">
             <div className="relative col-span-5 overflow-hidden bg-gray-100 rounded-lg dark:bg-midnight md:h-[450px] h-auto">
               <Image
-                className="absolute left-[200px]"
+                className="absolute p-8"
                 objectFit="fill"
-                src="https://res.cloudinary.com/hoangtrinhj/image/upload/v1646346494/mbpro_css_art_challenge_thh7yw.png"
+                src="https://res.cloudinary.com/hoangtrinhj/image/upload/v1665215790/kyberswap.png"
                 placeholder="blur"
-                blurDataURL="https://res.cloudinary.com/hoangtrinhj/image/upload/v1646346494/mbpro_css_art_challenge_thh7yw.png"
+                blurDataURL="https://res.cloudinary.com/hoangtrinhj/image/upload/v1665215790/kyberswap.png"
                 width={5110}
                 height={3139}
                 layout="intrinsic"
-                alt={'Bundle, LLC on a Macbook Pro'}
+                alt={'Kyberswap image'}
               />
             </div>
           </div>
