@@ -57,13 +57,11 @@ export default function About({ recentArticles }) {
         </span>
       </h1>
       <p>
-        I’m Hoang, a software engineer, lifelong learner,{' '}
+        I’m Hoang, a lifelong learner,{' '}
         <Link href="/blog">
           <a>blogger</a>
         </Link>{' '}
-        and self-proclaimed designer who specializes in front-end development.
-        My mission is to translate user-focussed designs into pixel-perfect
-        websites or applications that run blazing fast.
+        and software engineer who specializes in backend development.
       </p>
       <p>
         At present, I am working full time at{' '}
