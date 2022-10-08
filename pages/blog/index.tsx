@@ -1,6 +1,7 @@
 import { convertToArticleList, getAllArticles } from '@/lib/notion';
 import { useEffect, useState } from 'react';
 import { FaGithub } from '@react-icons/all-files/fa/FaGithub';
+import { FaStackOverflow } from '@react-icons/all-files/fa/FaStackOverflow';
 import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter';
 import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin';
 
@@ -115,6 +116,15 @@ export default function Blog({ featuredArticle, articles, tags }) {
               >
                 <span className="sr-only">{siteMetadata.github}</span>
                 <FaGithub />
+              </a>
+              <a
+                href={siteMetadata.stackoverflow}
+                target="_blank"
+                className="text-gray-600 dark:text-gray-400 important"
+                rel="noreferrer"
+              >
+                <span className="sr-only">{siteMetadata.stackoverflow}</span>
+                <FaStackOverflow />
               </a>
               <a
                 href={siteMetadata.twitter}

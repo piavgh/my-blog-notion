@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { FaGithub } from '@react-icons/all-files/fa/FaGithub';
+import { FaStackOverflow } from '@react-icons/all-files/fa/FaStackOverflow';
 import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter';
 import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin';
 
@@ -29,6 +30,11 @@ const navigation = {
       name: 'GitHub',
       href: siteMetadata.github,
       icon: () => <FaGithub />
+    },
+    {
+      name: 'Stackoverflow',
+      href: siteMetadata.stackoverflow,
+      icon: () => <FaStackOverflow />
     },
     {
       name: 'Twitter',

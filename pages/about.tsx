@@ -49,7 +49,7 @@ export default function About({ recentArticles }) {
   return (
     <Container title="About Me - Hoang Trinh">
       <h1>
-        <span className="block text-base font-semibold tracking-wide text-center text-teal-500 uppercase dark:text-teal-400">
+        <span className="block text-base font-semibold tracking-wide text-center text-teal-500 uppercase dark:text-teal-400 mb-8">
           About me
         </span>
         <span className="block max-w-2xl mx-auto mt-2 text-4xl font-bold leading-10 text-center sm:text-5xl">
@@ -57,8 +57,7 @@ export default function About({ recentArticles }) {
         </span>
       </h1>
       <p>
-        I’m Hoang, a developer,{' '}
-        <a href={siteMetadata.codepen}>creative coder</a>,{' '}
+        I’m Hoang, a software engineer, lifelong learner,{' '}
         <Link href="/blog">
           <a>blogger</a>
         </Link>{' '}
@@ -67,33 +66,33 @@ export default function About({ recentArticles }) {
         websites or applications that run blazing fast.
       </p>
       <p>
-        I’m currently working as a senior front end developer at{' '}
-        <a href="https://www.logicgate.com">LogicGate</a> where I help develop
-        an agile GRC cloud solution that combines powerful functionality with
-        intuitive design to enhance enterprise GRC programs.
+        At present, I am working full time at{' '}
+        <a href="https://kyber.network">Kyber Network</a>, a company dedicated
+        to provide decentralized finance for everyone. Specifically, I am
+        building a DEX aggregator called{' '}
+        <a href="https://kyberswap.com">kyberswap.com</a>.
       </p>
 
       <p>
-        Prior to LogicGate, I worked as a senior full-stack engineer at{' '}
-        <a href="https://www.cognizant.com/us/en">Cognizant</a> where I helped
-        architect and develop full-stack RESTful microservices, train and
-        prepare developers for delivery, and assist in leading the front-end
-        practice in a lab-based working environment.
+        I work mainly as a backend developer (Golang, Rust, Node.js) but I can
+        also work with React.js (this website is built with Next.js). My main
+        focus now is to become a savvy blockchain engineer.
       </p>
       <p>
-        Before Cognizant, I worked as a UI Developer for{' '}
-        <a href="https://www.projekt202.com">projekt202</a> helping craft design
-        systems and building reusable component libraries for multi-million
-        dollar companies.
+        You can check{' '}
+        <a href="https://resume.hoangtrinhj.com">my resume here</a> for more
+        information . In my free time, I try to learn as much as I can about
+        blockchain, EVM, MEV, flash loan and other blockchain infrastructure.
+        There are so many things to learn in this field.
       </p>
       <div className="grid grid-cols-1 gap-0 md:grid-cols-4 md:gap-x-5">
         <div className="col-span-1">
           <Image
             className="rounded-xl group-hover:opacity-75"
             objectFit="fill"
-            src="https://res.cloudinary.com/hoangtrinhj/image/upload/v1636553710/avatar.jpg"
+            src="https://res.cloudinary.com/hoangtrinhj/image/upload/v1665205306/Hoang.jpg"
             placeholder="blur"
-            blurDataURL="https://res.cloudinary.com/hoangtrinhj/image/upload/v1636553710/avatar.jpg"
+            blurDataURL="https://res.cloudinary.com/hoangtrinhj/image/upload/v1665205306/Hoang.jpg"
             width={260}
             height={260}
             layout="responsive"
@@ -102,9 +101,10 @@ export default function About({ recentArticles }) {
         </div>
         <div className="col-span-3">
           <p className="">
-            In a past life, I was an indie mobile developer making mobile games
-            for iOS and Android, with one of my games outselling Angry Birds.
+            I started this website as a place to document everything I learned.
+            I love self-learning and write about everything I know.
           </p>
+
           <p>
             You can find me on <a href={siteMetadata.twitter}>Twitter</a> where
             I share tech-related tidbits and build in public, or you can follow
@@ -112,9 +112,8 @@ export default function About({ recentArticles }) {
             my findings on my{' '}
             <Link href="/blog">
               <a>blog</a>
-            </Link>{' '}
-            and create cool things over on{' '}
-            <a href={siteMetadata.codepen}>CodePen</a>.
+            </Link>
+            .
           </p>
         </div>
       </div>

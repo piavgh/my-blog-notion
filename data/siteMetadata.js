@@ -14,6 +14,7 @@ const siteMetadata = {
     'https://res.cloudinary.com/hoangtrinhj/image/upload/v1638884997/default-social-image.png',
   email: 'mailto:hoang.trinhj@gmail.com',
   github: 'https://github.com/piavgh',
+  stackoverflow: 'https://stackoverflow.com/users/2667212/hoang-trinh',
   twitter: 'https://twitter.com/0xh8h',
   twitterHandle: '@0xh8h',
   linkedin: 'https://www.linkedin.com/in/hoangtrinhj/',
