@@ -47,13 +47,7 @@ function SubscribeCard({
         A periodic update about my life, recent blog posts, how-tos, and
         discoveries.
       </p>
-      <p className="mt-0">
-        As a thank you, I'll also send you a{' '}
-        <span className="text-indigo-500 font-fancy dark:text-indigo-400">
-          Free CSS
-        </span>{' '}
-        tutorial!
-      </p>
+
       <p>No spam - unsubscribe at any time!</p>
 
       <form
